@@ -8,6 +8,7 @@
     "@rails/webpacker": "5.2.1",
     "grapesjs": "^0.16.30",
     "grapesjs-mjml": "^0.4.0",
+    "grapesjs-preset-newsletter": "^0.2.20",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",

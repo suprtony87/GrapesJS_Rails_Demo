@@ -15,7 +15,8 @@ ActiveStorage.start()
 
 import 'grapesjs/dist/css/grapes.min.css'
 import grapesJS from 'grapesjs'
-import grapesJSMJML from 'grapesjs-mjml'
+import grapesJSMJML from 'grapesjs-mjml' 
+import grapesjspresetnewsletter from 'grapesjs-preset-newsletter' 
 
 window.addEventListener('DOMContentLoaded', (event) => {
 
@@ -29,6 +30,10 @@ var editor = grapesJS.init({
    avoidInlineStyle : true,
    height: '900px',
    width: 'auto',
+   noticeOnUnload: true,
+       modalLabelImport: '',
+    modalLabelExport: '',
+    modalBtnImport: 'Import',
    // Disable the storage manager for the moment
    storageManager: false,
    plugins: [grapesJSMJML],
@@ -36,9 +41,15 @@ var editor = grapesJS.init({
       [grapesJSMJML]: {/* ...options */}
    },
 
+   // Layer Manager
+
+
+   // End Layer Manager
+
 });
 
 // Block 1
+
 
 
 // Block 2
